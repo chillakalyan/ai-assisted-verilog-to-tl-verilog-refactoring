@@ -1,1 +1,21 @@
 
+Convert the following Verilog code into TL-Verilog.
+
+Requirements:
+- Preserve exact functionality
+- Use TL-Verilog syntax correctly
+- Maintain signal dependencies
+- Use simple pipeline stages where necessary
+- Avoid unnecessary complexity
+
+Instructions:
+- Convert always blocks into TL-Verilog pipeline logic
+- Translate register assignments properly
+- Ensure correct reset behavior
+
+Output Format:
+- Provide only TL-Verilog code
+- No explanations
+
+Verilog Code:
+[CODE]
