@@ -1,26 +1,34 @@
+\m5_TLV_version 1d: tl-x.org
+\m5
 
-|alu_pipeline
-    @0
-        $reset = *reset;
-        $cyc_cnt[31:0] = $reset ? 0 : >>1$cyc_cnt + 1;
+\SV
+   m5_makerchip_module
+\TLV
 
-    @1
-        $a[31:0] = $cyc_cnt;
-        $b[31:0] = $cyc_cnt + 32'd5;
-        $opcode[2:0] = $cyc_cnt[2:0];
+   /alu
+      |pipe
+         @0
+            $a[31:0] = *cyc_cnt;
+            $b[31:0] = *cyc_cnt + 32'd5;
+            $opcode[2:0] = *cyc_cnt[2:0];
 
-    @2
-        $opcode_s1[2:0] = >>1$opcode;
-        $add[31:0] = $a + $b;
-        $sub[31:0] = $a - $b;
-        $and_op[31:0] = $a & $b;
-        $or_op[31:0]  = $a | $b;
-        $xor_op[31:0] = $a ^ $b;
+         @1
+            $add[31:0] = $a + $b;
+            $sub[31:0] = $a - $b;
+            $and[31:0] = $a & $b;
+            $or[31:0]  = $a | $b;
+            $xor[31:0] = $a ^ $b;
 
-    @3
-        $result[31:0] =
-            $opcode_s1 == 3'b000 ? $add :
-            $opcode_s1 == 3'b001 ? $sub :
-            $opcode_s1 == 3'b010 ? $and_op :
-            $opcode_s1 == 3'b011 ? $or_op  :
-                                   $xor_op;
+         @2
+            $result[31:0] =
+               ($opcode == 3'b000) ? $add :
+               ($opcode == 3'b001) ? $sub :
+               ($opcode == 3'b010) ? $and :
+               ($opcode == 3'b011) ? $or  :
+                                     $xor;
+
+   *passed = *cyc_cnt > 30;
+   *failed = 1'b0;
+
+\SV
+   endmodule
