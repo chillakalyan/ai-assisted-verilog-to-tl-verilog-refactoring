@@ -1,1 +1,24 @@
 
+Convert the following Verilog FSM (Finite State Machine) into TL-Verilog.
+
+Requirements:
+- Identify states and transitions
+- Maintain exact state behavior
+- Preserve transition conditions
+- Represent FSM using TL-Verilog constructs
+
+Instructions:
+- Convert case statements into structured logic
+- Maintain state register behavior
+- Ensure correct initialization and reset
+
+Focus:
+- State transitions
+- Control logic clarity
+- Readability
+
+Output:
+- Only TL-Verilog code
+
+Verilog Code:
+[CODE]
