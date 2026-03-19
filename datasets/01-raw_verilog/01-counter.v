@@ -1,27 +1,20 @@
+// 4-bit Counter
+// Increments by 1 on every clock cycle
+// Resets to 0 when reset is high
 
-
-// 4-bit counter example
-// This counter increases by 1 every clock cycle
-
-module verilog_counter(
-    input clk,          // clock signal
-    input reset,        // reset signal
-    output reg [3:0] count   // 4-bit output counter
+module counter (
+    input wire clk,            // Clock signal
+    input wire reset,          // Active-high reset
+    output reg [3:0] count     // 4-bit counter output
 );
 
-// counter logic
-always @(posedge clk) begin
-
-    // if reset is active, set counter to 0
-    if (reset) begin
-        count <= 4'b0000;
+    // Counter logic
+    always @(posedge clk) begin
+        if (reset) begin
+            count <= 4'b0000;  // Reset counter to 0
+        end else begin
+            count <= count + 1; // Increment counter
+        end
     end
-    
-    // otherwise increase counter value
-    else begin
-        count <= count + 1;
-    end
-
-end
 
 endmodule
