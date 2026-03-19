@@ -1,1 +1,23 @@
 
+Improve the following TL-Verilog code.
+
+Goals:
+- Reduce code complexity
+- Improve readability
+- Optimize pipeline structure
+- Remove redundant signals
+
+Instructions:
+- Simplify signal dependencies
+- Optimize pipeline stages
+- Improve naming clarity
+- Ensure no functional change
+
+Constraints:
+- Do NOT change functionality
+- Maintain correct timing
+
+Output:
+- Optimized TL-Verilog code only
+
+TL-Verilog Code:
