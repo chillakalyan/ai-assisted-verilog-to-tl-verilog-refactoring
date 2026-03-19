@@ -1,10 +1,17 @@
+# Dataset: Verilog → TL-Verilog
 
-# Dataset Structure
+This dataset supports **AI-assisted conversion of Verilog into TL-Verilog**.
 
-This dataset contains:
+## Structure
 
-- Raw Verilog designs
-- TL-Verilog outputs
-- Paired input-output mappings
+- `01-raw_verilog/` → Original Verilog designs  
+- `02-tlv_outputs/` → Ground truth TL-Verilog (Makerchip)  
+- `03-paired_data/` → Input-output pairs with notes  
 
-Each pair is verified and used for AI-assisted refactoring.
+## Purpose
+
+- Provide verified Verilog → TL-Verilog mappings  
+- Enable AI model evaluation and improvement  
+- Extract reusable conversion patterns  
+
+Each example includes the design, its TL-Verilog equivalent, and analysis for learning and validation.
