@@ -1,21 +1,26 @@
+You are an expert in Verilog, TL-Verilog, and digital hardware design.
 
 Convert the following Verilog code into TL-Verilog.
 
 Requirements:
-- Preserve exact functionality
-- Use TL-Verilog syntax correctly
-- Maintain signal dependencies
-- Use simple pipeline stages where necessary
-- Avoid unnecessary complexity
-
-Instructions:
-- Convert always blocks into TL-Verilog pipeline logic
-- Translate register assignments properly
-- Ensure correct reset behavior
-
-Output Format:
-- Provide only TL-Verilog code
-- No explanations
+- Preserve functionality
+- Use pipeline stages
+- Maintain correct timing
 
 Verilog Code:
-[CODE]
+module verilog_counter(
+    input clk,
+    input reset,
+    output reg [3:0] count
+);
+
+always @(posedge clk) begin
+    if (reset) begin
+        count <= 4'b0000;
+    end
+    else begin
+        count <= count + 1;
+    end
+end
+
+endmodule
