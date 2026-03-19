@@ -1,11 +1,25 @@
 You are an expert in Verilog, TL-Verilog, and digital hardware design.
+You understand pipeline-based design, timing abstraction, and signal dependencies.
 
+Task:
 Convert the following Verilog code into TL-Verilog.
 
 Requirements:
-- Preserve functionality
-- Use pipeline stages
-- Maintain correct timing
+- Preserve exact functionality
+- Maintain correct timing behavior
+- Convert sequential logic into pipeline stages
+- Use TL-Verilog syntax correctly
+- Ensure proper reset handling
+
+Instructions:
+- Convert always @(posedge clk) blocks into pipeline stages
+- Use stage annotations like @0, @1 if required
+- Use >> operator for sequential dependencies
+- Maintain signal width and naming consistency
+
+Output Format:
+- Provide ONLY TL-Verilog code
+- Do NOT include explanations
 
 Verilog Code:
 module verilog_counter(
