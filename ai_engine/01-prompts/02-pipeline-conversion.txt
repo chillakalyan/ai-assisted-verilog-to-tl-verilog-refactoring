@@ -1,1 +1,23 @@
 
+Convert the following Verilog module into TL-Verilog using pipeline stages.
+
+Requirements:
+- Identify sequential logic and convert into pipeline stages
+- Maintain correct timing relationships
+- Use stage annotations like @0, @1, etc.
+- Ensure correct signal propagation across stages
+
+Instructions:
+- Convert clocked always blocks into pipeline stages
+- Use >> operator for stage transitions
+- Maintain data flow consistency
+
+Focus:
+- Pipeline clarity
+- Correct timing abstraction
+
+Output:
+- Only TL-Verilog code
+
+Verilog Code:
+[CODE]
