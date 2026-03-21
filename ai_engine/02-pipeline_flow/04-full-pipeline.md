@@ -6,7 +6,7 @@
 This system converts Verilog designs into TL-Verilog using AI-driven prompts.
 
 ## Pipeline Flow
-
+```
 Verilog Input
     ↓
 Input Processing
@@ -20,7 +20,7 @@ TL-Verilog Output
 Post Processing
     ↓
 Final Output
-
+```
 ## Components
 
 1. Dataset
