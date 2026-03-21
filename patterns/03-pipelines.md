@@ -1,10 +1,7 @@
 
 
----
 
-# ✅ `03-pipelines.md`
 
-```markdown
 # Pipeline Patterns
 
 ## Objective
@@ -27,3 +24,4 @@ always @(posedge clk) begin
     a <= input;
     b <= a + 1;
 end
+```
