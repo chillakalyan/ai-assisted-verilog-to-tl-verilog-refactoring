@@ -1,1 +1,16 @@
 
+Verification Summary
+
+Module: Counter
+
+Checks Performed:
+- Reset behavior
+- Counter increment correctness
+- State consistency
+
+Results:
+- All properties satisfied
+- No violations detected
+
+Conclusion:
+The counter design is formally verified and correct.
