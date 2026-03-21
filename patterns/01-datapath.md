@@ -31,3 +31,16 @@ A datapath consists of:
 always @(posedge clk) begin
     result <= a + b;
 end
+
+```
+---
+## TL-Verilog Mapping
+```tlv
+@1
+   $result = >>1$a + >>1$b;
+```
+---
+## Key Observations
+- Sequential logic → pipeline stages
+- Data dependencies → handled using >> operator
+- Signals must be properly staged
