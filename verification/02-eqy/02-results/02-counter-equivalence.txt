@@ -1,1 +1,14 @@
 
+Equivalence Summary
+
+Module: Counter
+
+Comparison:
+- Verilog vs TL-Verilog
+
+Results:
+- Functional equivalence confirmed
+- Outputs match for all tested conditions
+
+Conclusion:
+Designs are equivalent.
