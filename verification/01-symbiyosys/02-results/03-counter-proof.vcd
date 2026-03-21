@@ -1,1 +1,9 @@
 
+VCD waveform generated from formal verification.
+
+Signals observed:
+- clk
+- reset
+- count
+
+Used to visualize proof traces.
