@@ -2,8 +2,6 @@
 
 ---
 
-# ✅ `02-control_logic.md`
-
 # Control Logic Patterns
 
 ## Objective
@@ -53,3 +51,7 @@ end
 - Control logic is combinational
 - Must be placed in correct pipeline stage
 - Depends on current state
+---
+## Use in Project
+- Used in FSM Traffic Light module
+- Requires careful stage sequencing
