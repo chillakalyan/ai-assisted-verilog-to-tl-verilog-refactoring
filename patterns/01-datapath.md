@@ -44,3 +44,8 @@ end
 - Sequential logic → pipeline stages
 - Data dependencies → handled using >> operator
 - Signals must be properly staged
+
+---
+## Use in Project
+- Used in ALU conversion
+- Critical for pipeline-based designs
