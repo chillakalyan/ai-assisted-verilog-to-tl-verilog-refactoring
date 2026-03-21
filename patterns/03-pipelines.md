@@ -25,3 +25,26 @@ always @(posedge clk) begin
     b <= a + 1;
 end
 ```
+## TL-Verilog Mapping
+```tlv
+@0
+   $a = input;
+
+@1
+   $b = >>1$a + 1;
+```
+---
+## Key Concepts
+- @0 → initial stage
+- @1, @2 → subsequent stages
+---
+## Data Dependency
+- Use >> operator to refer to previous stage
+---
+## Common Issues
+- Missing >> operator
+- Incorrect stage ordering
+- Data hazards
+## Use in Project
+- Critical for ALU conversion
+- Ensures correct timing behavior
