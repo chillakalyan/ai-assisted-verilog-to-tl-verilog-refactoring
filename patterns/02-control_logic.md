@@ -9,7 +9,7 @@
 
 ## Objective
 Understand control logic structures such as FSMs and conditional logic.
-
+```
 ---
 
 ## What is Control Logic?
@@ -39,3 +39,18 @@ always @(*) begin
         default: next_state = 0;
     endcase
 end
+```
+---
+## TL-Verilog Mapping
+```tlv
+@2
+   $next_state =
+      ($state == 0) ? 1 :
+      ($state == 1) ? 2 :
+                      0;
+```
+---
+## Key Observations
+- Control logic is combinational
+- Must be placed in correct pipeline stage
+- Depends on current state
