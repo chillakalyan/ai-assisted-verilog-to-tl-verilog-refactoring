@@ -1,1 +1,13 @@
 
+SymbiYosys Formal Verification Log
+
+- Engine: smtbmc
+- Mode: prove
+- Depth: 20
+
+Result:
+All assertions passed successfully.
+
+No counterexamples found.
+
+Verification Status: PASS
