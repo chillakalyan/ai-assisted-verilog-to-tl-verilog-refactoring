@@ -1,1 +1,11 @@
 
+[gold]
+read_verilog counter.v
+prep -top counter
+
+[gate]
+read_verilog counter_tlv.v
+prep -top counter
+
+[strategy]
+equivalence
