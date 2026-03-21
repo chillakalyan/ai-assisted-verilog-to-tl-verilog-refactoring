@@ -1,1 +1,11 @@
 
+Equivalence Checking Log
+
+Comparing:
+- Verilog (gold)
+- TL-Verilog (gate)
+
+Result:
+No mismatches found.
+
+Equivalence Status: PASS
