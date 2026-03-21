@@ -4,12 +4,11 @@
 
 # ✅ `02-control_logic.md`
 
-```markdown
 # Control Logic Patterns
 
 ## Objective
 Understand control logic structures such as FSMs and conditional logic.
-```
+
 ---
 
 ## What is Control Logic?
