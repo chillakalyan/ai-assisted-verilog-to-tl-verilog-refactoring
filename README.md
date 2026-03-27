@@ -1,4 +1,4 @@
-## AI-Assisted Verilog to TL-Verilog Refactoring
+# AI-Assisted Verilog to TL-Verilog Refactoring
 
 ## Overview
 
