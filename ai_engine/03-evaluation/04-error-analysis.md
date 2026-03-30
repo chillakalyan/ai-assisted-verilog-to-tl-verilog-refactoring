@@ -1,5 +1,5 @@
 
-# Error Analysis
+## Error Analysis
 
 ## Objective
 Identify common errors in AI-generated TL-Verilog.
