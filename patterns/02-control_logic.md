@@ -2,7 +2,7 @@
 
 
 
-# Control Logic Pattern
+# Control Logic Patterns
 
 ## Objective
 Understand control logic structures such as FSMs and conditional logic.
