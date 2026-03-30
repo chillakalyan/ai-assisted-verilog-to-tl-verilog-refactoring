@@ -1,4 +1,4 @@
-# Result
+# Results
 
 ## Functional Correctness
 - Status: ✅ Correct
