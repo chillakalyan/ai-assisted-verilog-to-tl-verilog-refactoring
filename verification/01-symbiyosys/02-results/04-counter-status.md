@@ -1,5 +1,5 @@
 
-# Formal Verification Status
+# Formal Verification Statu
 
 ## Module: Counter
 
