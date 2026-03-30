@@ -20,6 +20,3 @@ Focus:
 Output:
 - Only TL-Verilog code
 
-Verilog Code:
-[PASTE VERILOG CODE HERE]
-
