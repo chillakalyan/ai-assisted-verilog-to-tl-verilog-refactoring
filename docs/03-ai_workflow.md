@@ -1,5 +1,5 @@
 
-# AI Workflow
+# AI Workflo
 
 ## Objective
 Describe how AI is used in the conversion pipeline.
