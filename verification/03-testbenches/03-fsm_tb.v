@@ -1,5 +1,5 @@
 
-module fsm_tb;
+module fsm_tb
 
 reg clk = 0;
 reg reset = 1;
