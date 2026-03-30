@@ -20,5 +20,4 @@ Constraints:
 Output:
 - Optimized TL-Verilog code only
 
-Verilog Code:
-[PASTE VERILOG CODE HERE]
+
