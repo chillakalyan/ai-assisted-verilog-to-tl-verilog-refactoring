@@ -21,5 +21,4 @@ Output Format:
 - Provide ONLY TL-Verilog code
 - Do NOT include explanations
 
-Verilog Code:
-[PASTE VERILOG CODE HERE]
+
