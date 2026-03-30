@@ -1,5 +1,5 @@
 
-import os
+imort os
 from generate_tlv import generate_tlv
 from evaluate_results import evaluate
 
