@@ -1,5 +1,5 @@
 
-def evaluate(verilog_file, tlv_file)
+def evaluate(verilog_file, tlv_file):
     print("Evaluating results...")
     
     with open(verilog_file, "r") as f:
