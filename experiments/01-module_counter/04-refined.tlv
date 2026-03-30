@@ -1,5 +1,5 @@
 
-// Refined TL-Verilog
+// Refined TL-Verilo
 // Improvements:
 // - Fixed pipeline stage alignment
 // - Corrected reset handling
