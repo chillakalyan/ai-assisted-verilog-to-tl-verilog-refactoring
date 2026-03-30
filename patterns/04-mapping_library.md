@@ -1,7 +1,7 @@
 
 
 
-# Mapping Librar
+# Mapping Library
 
 ## Objective
 Provide a reference mapping between Verilog constructs and TL-Verilog equivalents.
