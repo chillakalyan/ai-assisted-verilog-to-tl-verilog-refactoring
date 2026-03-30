@@ -1,5 +1,5 @@
 
-# Counter Conversion Notes
+# Counter Conversion Note
 
 ## Description
 This module implements a 4-bit synchronous counter that increments on every clock cycle and resets to zero when reset is active.
