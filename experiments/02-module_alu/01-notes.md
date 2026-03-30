@@ -1,5 +1,5 @@
 
-# Experiment Notes
+# Experiment Note
 
 ## Module Name
 ALU (Pipeline-Based Design)
