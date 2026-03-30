@@ -1,5 +1,5 @@
 
-Equivalence Summary
+Equivalence Summar
 
 Module: Counter
 
