@@ -1,5 +1,5 @@
 
-# Midterm Report
+# Midterm Repor
 
 ## Project Title
 AI-Assisted Conversion of Verilog to TL-Verilog
