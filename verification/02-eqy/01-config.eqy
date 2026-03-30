@@ -1,5 +1,5 @@
 
-[gold]
+[gold
 read_verilog counter.v
 prep -top counter
 
