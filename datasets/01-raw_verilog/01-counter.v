@@ -1,4 +1,4 @@
-// 4-bit Counter
+// 4-bit Counte
 // Increments by 1 on every clock cycle
 // Resets to 0 when reset is high
 
