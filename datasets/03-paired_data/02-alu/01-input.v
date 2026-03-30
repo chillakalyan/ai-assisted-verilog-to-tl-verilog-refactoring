@@ -2,7 +2,7 @@
 module alu_pipeline (
     input clk,
     input reset
-);
+)
 
 // cycle counter (similar to *cyc_cnt in Makerchip)
 reg [31:0] cyc_cnt;
