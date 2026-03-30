@@ -3,7 +3,7 @@
 module fsm_traffic_light (
     input clk,
     input reset
-)
+);
 
 // state registers
 reg [1:0] state;
