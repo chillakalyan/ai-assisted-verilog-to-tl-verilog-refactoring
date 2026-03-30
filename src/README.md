@@ -1,5 +1,5 @@
 
-# Source Pipelin
+# Source Pipeline
 
 This directory represents the complete transformation pipeline:
 
