@@ -2,7 +2,7 @@
 
 
 
-# Pipeline Pattern
+# Pipeline Patterns
 
 ## Objective
 Understand how sequential logic is converted into pipeline stages.
