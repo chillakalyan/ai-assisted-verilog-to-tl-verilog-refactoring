@@ -1,5 +1,5 @@
 
-# Final Report
+# Final Reports
 
 ## Project Title
 AI-Assisted Conversion of Verilog to TL-Verilog
