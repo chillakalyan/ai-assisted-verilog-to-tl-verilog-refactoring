@@ -1,5 +1,5 @@
 
-module alu_tb
+module alu_tb;
 
 reg clk = 0;
 reg reset = 1;
