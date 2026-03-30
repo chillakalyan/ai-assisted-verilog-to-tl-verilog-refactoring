@@ -1,5 +1,5 @@
 
-# Datapath Patterns
+# Datapath Pattern
 
 ## Objective
 Define common datapath structures in Verilog and their mapping to TL-Verilog.
