@@ -1,4 +1,4 @@
-# ALU Pipeline Conversion Note
+# ALU Pipeline Conversion Notes
 
 ## Description
 This module implements a multi-stage pipelined ALU that performs arithmetic and logical operations based on an opcode.
