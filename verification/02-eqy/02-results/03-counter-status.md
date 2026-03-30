@@ -1,5 +1,5 @@
 
-# Equivalence Checking Status
+# Equivalence Checking Statu
 
 ## Module: Counter
 
