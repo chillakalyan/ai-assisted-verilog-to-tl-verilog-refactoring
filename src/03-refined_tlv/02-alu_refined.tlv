@@ -1,6 +1,6 @@
 
 
-// Refined TL-Verilog
+// Refined TL-Verilo
 // Improvements:
 // - Fixed pipeline dependencies using >> operator
 // - Corrected opcode propagation across stages
