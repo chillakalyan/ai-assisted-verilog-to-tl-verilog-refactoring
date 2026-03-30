@@ -1,5 +1,5 @@
 
-# FSM Traffic Light Conversion Notes
+# FSM Traffic Light Conversion Note
 
 ## Description
 This module implements a simple finite state machine (FSM) that cycles through 3 states.
