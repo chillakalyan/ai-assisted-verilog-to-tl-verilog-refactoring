@@ -1,7 +1,7 @@
 module alu_pipeline (
     input clk,
     input reset
-)
+);
 
 // cycle counter
 reg [31:0] cyc_cnt;
