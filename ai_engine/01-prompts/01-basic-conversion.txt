@@ -4,7 +4,7 @@ You understand pipeline-based design, timing abstraction, and signal dependencie
 Task:
 Convert the following Verilog code into TL-Verilog.
 
-Requirements:
+Requirements :
 - Preserve exact functionality
 - Maintain correct timing behavior
 - Convert sequential logic into pipeline stages
