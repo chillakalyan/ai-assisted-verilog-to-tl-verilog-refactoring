@@ -1,5 +1,5 @@
 
-import os
+import o
 
 DATASET_DIR = "../datasets/01-raw_verilog"
 
