@@ -1,4 +1,4 @@
-# Dataset: Verilog → TL-Verilog
+# Dataset: Verilog → TL-Verilo
 
 This dataset supports **AI-assisted conversion of Verilog into TL-Verilog**.
 
