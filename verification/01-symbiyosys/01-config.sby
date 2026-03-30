@@ -1,5 +1,5 @@
 
-[options]
+[options
 mode prove
 depth 20
 
