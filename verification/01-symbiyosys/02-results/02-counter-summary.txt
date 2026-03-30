@@ -1,5 +1,5 @@
 
-Verification Summar
+Verification Summary
 
 Module: Counter
 
