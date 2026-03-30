@@ -1,5 +1,5 @@
 
-# Project Timeline
+# Project Timelin
 
 ## Objective
 Define a structured plan for Verilog to TL-Verilog conversion using AI.
