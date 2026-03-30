@@ -1,5 +1,5 @@
 
-# Methodolog
+# Methodology
 
 ## Objective
 Define the approach used to convert Verilog into TL-Verilog using AI.
