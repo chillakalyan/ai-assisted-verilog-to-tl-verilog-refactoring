@@ -1,5 +1,5 @@
 
-# Experiment Note
+# Experiment Notes
 
 ## Module Name
 FSM Traffic Light
