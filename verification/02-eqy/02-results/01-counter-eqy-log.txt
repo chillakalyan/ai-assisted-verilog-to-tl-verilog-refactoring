@@ -1,5 +1,5 @@
 
-Equivalence Checking Lo
+Equivalence Checking Log
 
 Comparing:
 - Verilog (gold)
