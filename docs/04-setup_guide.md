@@ -1,5 +1,5 @@
 
-# Setup Guid
+# Setup Guide
 
 ## Requirements
 
