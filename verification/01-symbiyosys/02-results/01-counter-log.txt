@@ -1,5 +1,5 @@
 
-SymbiYosys Formal Verification Lo
+SymbiYosys Formal Verification Log
 
 - Engine: smtbmc
 - Mode: prove
