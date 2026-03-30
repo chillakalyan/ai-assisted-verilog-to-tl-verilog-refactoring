@@ -1,5 +1,5 @@
 
-# Comparison: Manual vs AI TL-Verilog
+## Comparison: Manual vs AI TL-Verilog
 
 ## Objective
 Compare AI-generated TL-Verilog with manually written TL-Verilog.
