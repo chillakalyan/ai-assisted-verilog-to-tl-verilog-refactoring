@@ -1,5 +1,5 @@
 
-module counter_tb
+module counter_tb;
 
 reg clk = 0;
 reg reset = 1;
