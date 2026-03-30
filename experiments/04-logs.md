@@ -1,5 +1,5 @@
 
-# Experiment Log
+# Experiment Logs
 
 ## Objective
 Track and summarize all experiments performed for Verilog to TL-Verilog conversion.
