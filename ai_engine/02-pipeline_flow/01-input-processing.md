@@ -1,5 +1,5 @@
 
-# Input Processing
+## Input Processing
 
 ## Objective
 Prepare raw Verilog files for AI-based TL-Verilog conversion.
