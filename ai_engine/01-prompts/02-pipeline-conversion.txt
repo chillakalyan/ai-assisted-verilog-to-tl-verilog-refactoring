@@ -7,7 +7,7 @@ Requirements:
 - Use stage annotations like @0, @1, etc.
 - Ensure correct signal propagation across stages
 
-Instructions:
+Instructions :
 - Convert clocked always blocks into pipeline stages
 - Use >> operator for stage transitions
 - Maintain data flow consistency
